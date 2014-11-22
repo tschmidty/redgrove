@@ -13,6 +13,19 @@
   <div class="container">
     <section id="content">
       <%= render_breadcrumbs %>
+      <% if notice %>
+        <p class="notification notice">
+          <i class="fa fa-check-square"></i>
+          <%= notice %>
+        </p>
+      <% end %>
+
+      <% if alert %>
+        <p class="notification alert">
+          <i class="fa fa-times-circle"></i>
+          <%= alert %>
+        </p>
+      <% end %>
       <%= yield %>
     </section>
     <section id="sidebar">

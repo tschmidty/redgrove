@@ -1,0 +1,42 @@
+/* START:base */
+.notification {
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  color: #2F2E39;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin: 0 auto 0px;
+  padding: 0.75em 0.75em 0.75em 10px;
+}
+/* END:base */
+
+/* START:variations */
+.notification {
+  background:{
+    position: 0px 0px;
+    repeat: no-repeat;
+  }
+  color: #fff;
+  font: {
+    size: 14px;
+    weight: bold;
+  }
+  line-height: 1.6em;
+  margin: 0 auto 0px;
+  padding: 0.75em 0.75em 0.75em 10px;
+
+  &.notice {
+    background: {
+      color: #006302;
+    }
+  }
+
+  &.alert {
+    background: {
+      color: #920202;
+    }
+  }
+}
+
+/* END:variations */

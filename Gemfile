@@ -41,3 +41,5 @@ gem 'spring',        group: :development
 gem 'modernizr-rails'
 
 gem "breadcrumbs_on_rails"
+
+gem "font-awesome-rails"
