@@ -39,3 +39,5 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'modernizr-rails'
+
+gem "breadcrumbs_on_rails"
