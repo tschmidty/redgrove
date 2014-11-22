@@ -1,5 +1,7 @@
 class WelcomesController < ApplicationController
   before_action :set_welcome, only: [:show, :edit, :update, :destroy]
+  add_breadcrumb "Home", :root_path
+
 
   # GET /welcomes
   # GET /welcomes.json

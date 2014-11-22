@@ -1,5 +1,7 @@
 class ResearchesController < ApplicationController
   before_action :set_research, only: [:show, :edit, :update, :destroy]
+  add_breadcrumb "Home", :root_path
+  add_breadcrumb "Research", :researches_path
 
   # GET /researches
   # GET /researches.json
